@@ -26,7 +26,7 @@ public class Parser {
     {
 
         // Path to models extracted from `stanford-parser-3.6.0-models.jar`
-        var jarRoot = @"C:\Users\TAKKA\Documents\Research\UnityText2Animation\UnityText2Animation\Assets\standford\stanford-parser-full-2018-02-27\models\";
+        var jarRoot = @"";
         var modelsDirectory = jarRoot;
 
         var lp = LexicalizedParser.loadModel(modelsDirectory + @"\lexparser\englishPCFG.ser.gz");
